@@ -9,7 +9,7 @@ public class unitTestCB {
 
 	@Test
 	public void greeterSaysHello() {
-		assertThat(helloWorldObject.sayHello(), containsString("Hello"));
+		assertThat(helloWorldObject.sayHello(), containsString("Fail Please"));
 	}
 
 }
