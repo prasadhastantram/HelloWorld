@@ -5,11 +5,11 @@ import org.junit.Test;
 
 public class unitTestCB {
 
-	HelloWorld greeter = new HelloWorld();
+	HelloWorld helloWorldObject = new HelloWorld();
 
 	@Test
 	public void greeterSaysHello() {
-		assertThat(greeter.sayHello(), containsString("Hello"));
+		assertThat(helloWorldObject.sayHello(), containsString("Hello"));
 	}
 
 }
