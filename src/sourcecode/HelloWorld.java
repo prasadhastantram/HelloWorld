@@ -1,7 +1,12 @@
 
 
-public class HelloWorld { 
-     public static void main(String[] args) { 
-         System.out.println("Hello, World Prasad! Check If Github is working ! Hurray !"); 
-     } 
- }  
+public class HelloWorld {
+    public String sayHello() {
+        return "Hello world!";
+    }
+    public static void main(String[] args) {
+        HelloWorld helloWorldObject = new HelloWorld();
+        System.out.println(helloWorldObject.sayHello());
+    }
+}
+
