@@ -10,7 +10,7 @@ public class HelloWorldTest {
 
 	@Test
 	public void greeterSaysHello() {
-		assertThat(helloWorldObject.sayHello(), containsString("Hello"));
+		assertThat(helloWorldObject.sayHello(), containsString("Prasad - Please Fail"));
 	}
 
 }
